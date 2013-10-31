@@ -28,6 +28,7 @@ blockquote ul, blockquote ol { margin-left: 2em; }
 /*--[ POSTS ]---------------------*/
 #posts { margin: 4.5em auto 0; width: 32em; }
 #posts .post { margin-bottom: 2.25em; padding-bottom: 2.25em; position: relative; }
+#posts .post:not(:first-child) {border-top: 2px solid #FF3333;}
 		
 /* COMMON POST STYLES */
 .post h2 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
