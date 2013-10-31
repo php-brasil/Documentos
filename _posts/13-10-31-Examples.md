@@ -6,7 +6,6 @@
 - "O que tem de errado..."
 - "Alguém me ajuda pelo amor de ..."
 
-Se é novato, quer aprender e não ser escrotizado no grupo siga este guia:
-https://www.facebook.com/notes/php-brasil/quero-aprender-php/10151496573755160
+Se é novato, quer aprender e não ser escrotizado no grupo siga este [guia](https://www.facebook.com/notes/php-brasil/quero-aprender-php/10151496573755160).
 
 Seja Bem-vindo
