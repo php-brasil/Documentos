@@ -1,0 +1,10 @@
+---
+layout: php-brasil
+description: "Documentos e regras da comunidade"
+---
+
+{% for post in site.posts ordered %}
+    <div id="{{ post.title | downcase | replace:' ','_' | replace:'(','' | replace:')','' | replace:'.','' | replace:'-','' }}" class="post">
+    {{ post.content }}
+    </div>
+{% endfor %}
