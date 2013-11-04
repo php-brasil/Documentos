@@ -8,8 +8,8 @@ Porque aqui, não tem biscoito!
 
 ## Regras
 
-- Grupo para discussões relacionadas a PHP: notícias, arquitetura, bibliotecas, HTTP, Semântica, etc..
-  Dúvidas (Onde/Como/O quê) DEVEM permanecer em lugares mais adequados (longe daqui): Stack Overflow, Quora, Fórums, Google.
+- Somente serão aceitos posts relacionados a PHP: notícias, arquitetura, bibliotecas, HTTP, Semântica, etc.
+- Não postar dúvidas (Onde/Como/O quê). Elas DEVEM permanecer em lugares mais adequados (longe daqui), como por exemplo Stack Overflow, Quora, Fórums, Google, etc.
 - EVITE posts repetidos.
   Pesquise (utilizando a busca do grupo) no grupo antes de postar um novo tópico.
 - A discussão deve ser feita NO GRUPO.
