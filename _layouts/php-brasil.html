@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>{% if page.title %}{{ page.title }} - {% endif %}Documentos e Regras do grupo PHP Brasil</title>
+        <meta name="description" content="{{ page.description }}" />
+        <meta name="robots" content="index,follow,archive" />
+        <meta property="og:image" content="http://php-brasil.github.io/Documentos/theme/images/leia-as-regras.png" />
+        <meta property="og:title" content="PHP Brasil - Leia as regras antes de postar" />
+        <meta property="og:description" content="{{ page.description }}" />
+        <meta property="og:url" content="http://php-brasil.github.io/Documentos/" />
+        <meta property="og:site_name" content="PHP Brasil"/>
+        <meta property="og:type" content="website"/>
+        <link rel="shortcut icon" href="//php-brasil.github.io/Documentos/theme/images/favicon.png" />
+        <link rel="stylesheet" href="//php-brasil.github.io/Documentos/theme/styles/php-brasil.css"/>
+    </head>
+    <body>
+        <div id="header">
+            <div id="inner-header">
+                <h1><a href="https://www.facebook.com/groups/nao.tem.biscoito"><img src="//php-brasil.github.io/Documentos/theme/images/topo.png" alt="PHP Brasil" /></a> </h1>
+            </div>
+        </div>
+        <div id="posts" class="autopagerize_page_element">
+            {{ content }}
+        </div>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+/*--[ Geral ]---*/
+html { font-size: 100.01%; }
+body {
+    background: url('//php-brasil.github.io/Documentos/theme/images/sombra.png') repeat-x scroll left 300px #ffffff;
+    color: #333333;
+    font: normal 1em/1.5 Georgia, serif; margin: 0;
+}
+		
+:focus { outline: none; }
+a:link, a:visited, a:active { color: #c00906; text-decoration: none; }
+a:hover, a:focus { color: #333333; }
+a img { border: 0; }
+h1, h2, h3, h4, h5, h6 { color: #111111; font-weight: normal; margin: 0; padding: 0; }
+p { margin: 0 0 1.5em; }
+ul, ol { margin: 0 0 1.5em; padding: 0; }
+blockquote { border-left: 2px solid #777777; color: #777777; margin: 0 1em 1.5em; padding: 0 1em; }
+blockquote ul, blockquote ol { margin-left: 2em; }
+
+/*--[ Header ]---*/		
+#header { background: #171717; padding: 0; margin: 0 0 3em; position: relative; }
+#inner-header { margin: 0 auto; width: 800px; height:300px;}
+#inner-header h1 { font-size: 3em; line-height: 1; }
+#inner-header h1 a { color: #ffffff; text-decoration: none; }
+#inner-header h1 a:hover { color: #999999; }
+#inner-header h2 { color: #999999; font-size: 1.1em; line-height: 1.363634; }
+			
+		
+/*--[ POSTS ]---------------------*/
+#posts { margin: 4.5em auto 0; width: 32em; }
+#posts .post { margin-bottom: 2.25em; padding-bottom: 2.25em; position: relative; border-bottom: 2px solid #FF3333; }
+		
+/* COMMON POST STYLES */
+.post h2 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }

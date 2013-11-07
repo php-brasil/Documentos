@@ -1,0 +1,10 @@
+---
+layout: php-brasil
+description: "Grupo de discussões acerca da linguagem. Se você quer tirar alguma dúvida, precisa de algum job feito, não faz idéia do que esta fazendo no mundo: este não é o melhor lugar pra postar suas coisas."
+---
+
+{% for post in site.posts ordered %}
+    <div id="{{ post.title | downcase | replace:' ','_' | replace:'(','' | replace:')','' | replace:'.','' | replace:'-','' }}" class="post">
+    {{ post.content }}
+    </div>
+{% endfor %}
