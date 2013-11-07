@@ -5,6 +5,7 @@
 - Oferta e procura de oportunidades de trabalho
 - "O que tem de errado..."
 - "Alguém me ajuda pelo amor de ..."
+- "Eu quero uma classe/componente/framework/sistema para..."
 
 Se é novato, quer aprender e não ser escrotizado no grupo siga este [guia](https://www.facebook.com/notes/php-brasil/quero-aprender-php/10151496573755160).
 
