@@ -17,6 +17,8 @@ Porque aqui, não tem biscoito!
 - Português é a única língua permitida.
 - Postagem de códigos, imagens e vídeos SOMENTE através de links.
 - BANS não são reversíveis.
+ 
+Se alguém pediu a você para ler as regras a partir de um post seu, a remoção do post é por sua conta - confirmando a leitura das regras.
 
 O descumprimento das regras PODE resultar em banimento definitivo do membro, remoção do conteúdo ou escrotização sem nenhum aviso prévio.
 As análises são pontualmente feitas pelos moderadores e NÃO estão abertas à discussão.
