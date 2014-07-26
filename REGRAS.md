@@ -9,7 +9,7 @@ Porque aqui, não tem biscoito!
 ## Regras
 
 - Somente serão aceitos posts relacionados a PHP: notícias, arquitetura, bibliotecas, HTTP, Semântica, etc.
-- Não postar dúvidas (Onde/Como/O quê). Elas DEVEM permanecer em lugares mais adequados (longe daqui), como por exemplo Stack Overflow, Quora, Fórums, Google, etc.
+- Não tiramos dúvidas. Existem lugares melhores como: [Stack Overflow][1], [Quora][2], [Fórums][3], [Google][4], etc.
 - EVITE posts repetidos.
   Pesquise (utilizando a busca do grupo) no grupo antes de postar um novo tópico.
 - A discussão deve ser feita NO GRUPO.
@@ -17,6 +17,8 @@ Porque aqui, não tem biscoito!
 - Português é a única língua permitida.
 - Postagem de códigos, imagens e vídeos SOMENTE através de links.
 - BANS não são reversíveis.
+ 
+Se alguém pediu a você para ler as regras a partir de um post seu, a remoção do post é por sua conta - confirmando a leitura das regras.
 
 O descumprimento das regras PODE resultar em banimento definitivo do membro, remoção do conteúdo ou escrotização sem nenhum aviso prévio.
 As análises são pontualmente feitas pelos moderadores e NÃO estão abertas à discussão.
@@ -31,8 +33,12 @@ As regras do grupo estão SEMPRE abertas à discussão.
 - "O que tem de errado..."
 - "Alguém me ajuda pelo amor de ..."
 
-Se é novato, quer aprender e não ser escrotizado no grupo siga este guia:
-https://www.facebook.com/notes/php-brasil/quero-aprender-php/10151496573755160
+Se é novato, quer aprender e não ser escrotizado no grupo siga [este guia](https://www.facebook.com/notes/php-brasil/quero-aprender-php/10151496573755160)
 
 Seja Bem-vindo
+
+[1]: http://stackoverflow.com/
+[2]: http://quora.com/
+[3]: http://forum.imasters.com.br/forum/3-php/
+[4]: http://googlel.com.br/
 
