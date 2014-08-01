@@ -3,3 +3,4 @@ body {background: #EDEDED;}
 .navbar .brand {padding: 0; float: none; text-align: center; height: 300px;}
 .row {background: #ffffff;}
 .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {background: #171717;}
+.span9 {width: 830px;}
