@@ -4,11 +4,11 @@
 {% for post in site.posts reversed %}
     {% if firstPost %}
         {% assign firstPost = false %}
-        <div id="{{ post.anchor }}" style="display: block; position: relative; top: -70px; visibility: hidden;"></div>
+        <div id="{{ post.anchor }}" style="display: block; position: relative; top: -100px; visibility: hidden;"></div>
         <section>
     {% else %}
         {% if firstChild != true %}
-            <div id="{{ post.anchor }}" style="display: block; position: relative; top: -70px; visibility: hidden;"></div>
+            <div id="{{ post.anchor }}" style="display: block; position: relative; top: -100px; visibility: hidden;"></div>
             <section>
         {% endif %}
     {% endif %}
