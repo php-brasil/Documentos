@@ -3,7 +3,10 @@
     <head>
         <meta charset="utf-8"/>
         <title>{% if page.title %}{{ page.title }} - {% endif %}Documentos e Regras do grupo PHP Brasil</title>
-        <meta name="description" content="{{ page.description }}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{{ page.description }}"/>
+        <meta name="author" content="PHP Brasil">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta name="robots" content="index,follow,archive" />
         <meta property="og:image" content="http://php-brasil.github.io/Documentos/theme/images/leia-as-regras.png" />
         <meta property="og:title" content="PHP Brasil - Leia as regras antes de postar" />
@@ -11,17 +14,61 @@
         <meta property="og:url" content="http://php-brasil.github.io/Documentos/" />
         <meta property="og:site_name" content="PHP Brasil"/>
         <meta property="og:type" content="website"/>
+        
         <link rel="shortcut icon" href="//php-brasil.github.io/Documentos/theme/images/favicon.png" />
-        <link rel="stylesheet" href="//php-brasil.github.io/Documentos/theme/styles/php-brasil.css"/>
+        
+        <link href="theme/styles/default/bootstrap.css" rel="stylesheet" />
+        <link href="theme/styles/default/bootstrap_responsive.css" rel="stylesheet" />
+        <link href="theme/styles/default/php-brasil.css" rel="stylesheet" />
+        <style>
+        section {margin-top: 30px;}
+        </style>
     </head>
-    <body>
-        <div id="header">
-            <div id="inner-header">
-                <h1><a href="https://www.facebook.com/groups/nao.tem.biscoito"><img src="//php-brasil.github.io/Documentos/theme/images/topo.png" alt="PHP Brasil" /></a> </h1>
+    <body data-spy="scroll" data-target="#navbar" data-offset="1">
+        <div class="navbar navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="https://www.facebook.com/groups/nao.tem.biscoito">
+                        <img alt="PHP Brasil" src="theme/images/php-brasil.svg" width="350" height="80" />
+                    </a>
+
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                </div>
             </div>
         </div>
-        <div id="posts" class="autopagerize_page_element">
-            {{ content }}
+        <div class="container">
+            <div class="row">
+                <div class="span3 bs-docs-sidebar" id="navbar" style="margin-top: 133px;">
+                    {% assign lastIsChild = false %}
+                    <ul class="nav nav-pills nav-stacked bs-docs-sidenav affix">
+                        {% for post in site.posts reversed %}
+                            {% if post.isChild != true %}
+                            <li><a href="#{{ post.anchor }}">{{ post.title }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="span9" style="margin-top: 100px;">
+                    {% include content.html %}
+                    <section>
+                        <div>
+                            <footer>
+                                <div align="left" style="margin-top:330px; margin-bottom:50px;">
+                                    <p><a href="http://php.net/docs.php" target="_blank">Documentação do PHP</a></a>.</p>
+                                </div>
+                            </footer>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
+
+        <script src="theme/scripts/default/jquery.js"></script>
+        <script src="theme/scripts/default/bootstrap-scrollspy.js"></script>  
+        <script src="theme/scripts/default/bootstrap-dropdown.js"></script>  
     </body>
 </html>

@@ -1,0 +1,7 @@
+body {background: #EDEDED;}
+h2 {margin: 30px 0 10px;}
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {background: #171717; border: 0px none; box-shadow: 0px 2px 3px rgba(0,0,0,0.6);}
+.navbar .brand {padding: 10px 0 0; float: none; line-height: 70px; text-shadow: none; color: #FFFFFF;}
+.row {background: #ffffff;}
+.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {background: #171717;}
+.span9 {width: 830px;}
