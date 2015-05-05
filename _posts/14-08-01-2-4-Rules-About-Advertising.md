@@ -14,5 +14,8 @@ Antes de postar qualquer coisa no grupo, que seja referente à publicidade e div
     1. Cursos e eventos gratuitos - permitidos tanto presenciais quanto online.
     2. Cursos e eventos pagos - apenas **mediante aprovação expressa dos administradores**, desde que haja uma vantagem para o grupo. Ex: Desconto, cortesias, etc.
 6. [x] Permitimos a divulgação de open source relacionado com PHP, como bibliotecas, frameworks, etc.
+7. [x] Permitimos a divulgação de pesquisas no grupo, acadêmicas ou não, desde que sigam os seguintes critérios: 
+    1. Esteja dentro do escopo do grupo.
+    2. **Que o resultado da pesquisa seja público desde o início**, ou seja, o autor/pesquisador/responsável pela pesquisa se compromete a manter os resultados parciais e totais abertos para consulta pública.
 
 **Exceção:** Divulgação de empresas poderá ocorrer no caso de empresas parceiras do grupo. A exceção é analisada pontualmente pelos administradores do grupo e poderá ocorrer sempre que os administradores acharem adequado para toda a comunidade.
