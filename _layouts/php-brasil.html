@@ -20,9 +20,6 @@
         <link href="theme/styles/default/bootstrap.css" rel="stylesheet" />
         <link href="theme/styles/default/bootstrap_responsive.css" rel="stylesheet" />
         <link href="theme/styles/default/php-brasil.css" rel="stylesheet" />
-        <style>
-        section {margin-top: 30px;}
-        </style>
     </head>
     <body data-spy="scroll" data-target="#navbar" data-offset="1">
         <div class="navbar navbar navbar-fixed-top">
@@ -42,7 +39,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="span3 bs-docs-sidebar" id="navbar" style="margin-top: 133px;">
+                <div class="span3 bs-docs-sidebar" id="navbar">
                     {% assign lastIsChild = false %}
                     <ul class="nav nav-pills nav-stacked bs-docs-sidenav affix">
                         {% for post in site.posts reversed %}
@@ -52,19 +49,15 @@
                         {% endfor %}
                     </ul>
                     <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-                        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />
+                        <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />
                     </a>
                 </div>
-                <div class="span9" style="margin-top: 100px;">
+                <div class="span9" id="content">
                     {% include content.html %}
                     <section>
-                        <div>
-                            <footer>
-                                <div align="left" style="margin-top:330px; margin-bottom:50px;">
-                                    <p><a href="http://php.net/docs.php" target="_blank">Documentação do PHP</a></a>.</p>
-                                </div>
-                            </footer>
-                        </div>
+                        <footer id="page-footer">
+                            <p><a href="http://php.net/docs.php" target="_blank">Documentação do PHP</a></a>.</p>
+                        </footer>
                     </section>
                 </div>
             </div>
