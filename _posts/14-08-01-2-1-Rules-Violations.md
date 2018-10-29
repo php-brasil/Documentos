@@ -4,7 +4,11 @@ isChild: true
 anchor: violacao-as-regras
 ---
 
-Os administradores e membros da comunidade procurarão, sempre, tratar todos os membros da forma mais educada e gentil possível. Porém, o respeito deve ser sempre bilateral. Ao não seguir as regras, o membro estará desrespeitando toda a comunidade. Todos os membros são livres para sair do grupo, caso não concorde com as regras. A violação recorrente às regras não será tolerado de forma alguma.
+Os administradores e membros da comunidade devem tratar todos os membros da forma mais educada e gentil possível. Esse respeito deve ser sempre bilateral.
+
+Ao não seguir as regras o membro estará desrespeitando toda a comunidade.
+
+**A violação recorrente às regras não será tolerado de forma alguma.**
 
 Caso você tenha acabado de chegar no grupo e algum administrador lhe enviou o link para esse documento, então significa que você violou alguma regra.
 
