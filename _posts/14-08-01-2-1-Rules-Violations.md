@@ -8,7 +8,7 @@ Os administradores e membros da comunidade devem tratar todos os membros da form
 
 Ao não seguir as regras o membro estará desrespeitando toda a comunidade.
 
-**A violação recorrente às regras não será tolerado de forma alguma.**
+**A violação recorrente às regras não será tolerada de forma alguma.**
 
 Caso você tenha acabado de chegar no grupo e algum administrador lhe enviou o link para esse documento, então significa que você violou alguma regra.
 
