@@ -1,0 +1,42 @@
+---
+---
+
+body {
+    min-height: 80rem;
+    padding-top: 8rem;
+}
+
+h1 {
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 8px;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+}
+
+.navbar-brand img {
+    max-width: 350px;
+}
+
+footer.footer {
+    margin-top: 40px;
+    background: #f5f5f5;
+    line-height: 50px;
+}
+
+@media (max-width: 460px) {
+    body {
+        padding-top: 5rem;
+    }
+    .navbar-brand img {
+        max-width: 210px;
+    }
+
+    .anchor {
+        top: -90px;
+    }
+}
