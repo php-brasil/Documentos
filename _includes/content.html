@@ -5,7 +5,7 @@
     {% if firstPost %}
         {% assign firstPost = false %}
     {% endif %}
-        <div id="{{ post.anchor }}" style="display: block; position: relative; top: -100px; visibility: hidden;"></div>
+        <div id="{{ post.anchor }}" class="anchor"></div>
         <section>
 
     {% if post.isChild != true %}
